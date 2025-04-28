@@ -39,7 +39,7 @@ chmod +x /home/upptech/arcade-game-launcher.sh
 cp splash_screen.py /home/upptech/Arcade_game/
 cp upptech_8-bit.png /home/upptech/Arcade_game/
 cp qjoypad.desktop /home/upptech/.config/autostart/
-cp player1-arrows-lyt /home/upptech/.qjoypad3/
+cp player1-arrows.lyt /home/upptech/.qjoypad3/
 
 echo "✅ Setup complete!"
 echo "You can now change session to X11 and then reboot and plug in a USB with .sb3 or .elf files to test."
