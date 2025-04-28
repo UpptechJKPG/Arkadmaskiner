@@ -10,18 +10,7 @@ sudo apt update
 sudo apt install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq qjoypad
 sudo apt install python-pil.imagetk
 
-echo "2. Disabling USB auto-mount in PCManFM..."
-CONFIG_FILE="/home/upptech/.config/pcmanfm/LXDE-pi/pcmanfm.conf"
-if [ -f "$CONFIG_FILE" ]; then
-    sed -i 's/mount_on_startup=1/mount_on_startup=0/' "$CONFIG_FILE"
-    sed -i 's/mount_removable=1/mount_removable=0/' "$CONFIG_FILE"
-    sed -i 's/autorun=1/autorun=0/' "$CONFIG_FILE"
-    # sed -i 's/browse_removable=1/browse_removable=0/' "$CONFIG_FILE"
-else
-    echo "PCManFM config file not found. Please manually adjust USB automount settings later."
-fi
-
-echo "3. Setting up systemd service..."
+echo "2. Setting up systemd service..."
 SERVICE_FILE="/etc/systemd/system/arcade-game-launcher.service"
 if [ -f "arcade-game-launcher.service" ]; then
     sudo cp arcade-game-launcher.service "$SERVICE_FILE"
@@ -32,7 +21,7 @@ else
     echo "   ERROR: arcade-game-launcher.service not found in current directory."
 fi
 
-echo "4. Copying launcher script and splash screen..."
+echo "3. Copying launcher script and splash screen..."
 mkdir -p /home/upptech/Arcade_game
 cp arcade-game-launcher.sh /home/upptech/
 chmod +x /home/upptech/arcade-game-launcher.sh
