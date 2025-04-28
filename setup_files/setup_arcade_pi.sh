@@ -20,11 +20,7 @@ else
     echo "PCManFM config file not found. Please manually adjust USB automount settings later."
 fi
 
-echo "3. Forcing X11 instead of Wayland..."
-sudo raspi-config nonint do_wayland 1
-echo "   (You may still need to reboot for this to take full effect.)"
-
-echo "4. Setting up systemd service..."
+echo "3. Setting up systemd service..."
 SERVICE_FILE="/etc/systemd/system/arcade-game-launcher.service"
 if [ -f "arcade-game-launcher.service" ]; then
     sudo cp arcade-game-launcher.service "$SERVICE_FILE"
@@ -35,7 +31,7 @@ else
     echo "   ERROR: arcade-game-launcher.service not found in current directory."
 fi
 
-echo "5. Copying launcher script and splash screen..."
+echo "4. Copying launcher script and splash screen..."
 mkdir -p /home/upptech/Arcade_game
 cp arcade-game-launcher.sh /home/upptech/
 chmod +x /home/upptech/arcade-game-launcher.sh
@@ -45,6 +41,5 @@ cp qjoypad.desktop /home/upptech/.config/autostart/
 cp player1-arrows-lyt /home/upptech/.qjoypad3/
 
 echo "✅ Setup complete!"
-echo "You can now reboot and plug in a USB with .sb3 or .elf files to test."
+echo "You can now change session to X11 and then reboot and plug in a USB with .sb3 or .elf files to test."
 echo "Also, don't forget to download Turbowarp Desktop (if not already installed)"
-echo "The controls of the joysticks"
