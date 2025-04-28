@@ -26,15 +26,14 @@ För att ändringen ska gälla behövs en omstart. Starta om och kontrollera sed
 ![PCman_Volume_Management](https://github.com/user-attachments/assets/44aeba16-577e-42f1-9958-ab16864d8bd9)
 
 ## 4. Installera TurboWarp Desktop
+TurboWarp Desktop är programmet som spelen startas i. \
+Det kan vara så att TurboWarp Dekstop redan är installerat. Kontrollera genom att köra `turbowarp-desktop` i terminalen. \
+Om en applikation öppnas upp, så är det installerat, annars är det inte installerat. \
 
+Om det inte är installerat, så installerar man det genom att köra följande kommandon i terminalen:
+1. `wget https://desktop.turbowarp.org/release-signing-key.gpg -qO- | gpg --dearmor | sudo tee /usr/share/keyrings/turbowarp.gpg > /dev/null`
+2. `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/turbowarp.gpg] https://releases.turbowarp.org/deb stable main" | sudo tee /etc/apt/sources.list.d/turbowarp.list`
+3. `sudo apt update`
+4. `sudo apt install turbowarp-desktop`
 
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
-Om TurboWarp Desktop inte redan är installerat behövs det också installeras genom att köra förljande kommandon:
-> wget https://desktop.turbowarp.org/release-signing-key.gpg -qO- | gpg --dearmor | sudo tee /usr/share/keyrings/turbowarp.gpg > /dev/null
-
-> echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/turbowarp.gpg] https://releases.turbowarp.org/deb stable main" | sudo tee /etc/apt/sources.list.d/turbowarp.list
-
-> sudo apt update
-
-> sudo apt install turbowarp-desktop
-
