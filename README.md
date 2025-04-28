@@ -27,6 +27,10 @@ För att ändringen ska gälla behövs en omstart. Starta om och kontrollera sed
 
 ## 3. Stäng av USB-notiser
 Öppna Filhanteraren (File Manager) och välj Redigera (Edit) och Inställningar (Settings). Sedan, under Volymhantering (Volume Management), avmarkera "Montera flyttbara enheter automatiskt när de ansluts" och "Visa tillgängliga alternatic från flyttbara medier när de ansluts".
+![PCman_Volume_Management](https://github.com/user-attachments/assets/44aeba16-577e-42f1-9958-ab16864d8bd9)
+
+## 4. Installera TurboWarp Desktop
+
 
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
 Om TurboWarp Desktop inte redan är installerat behövs det också installeras genom att köra förljande kommandon:
