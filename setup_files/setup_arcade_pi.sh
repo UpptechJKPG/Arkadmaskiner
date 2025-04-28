@@ -8,7 +8,7 @@ set -e
 echo "1. Installing required packages..."
 sudo apt update
 sudo apt install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq qjoypad
-sudo apt install python-pil.imagetk
+sudo apt install -y python3-pil.imagetk
 
 echo "2. Setting up systemd service..."
 SERVICE_FILE="/etc/systemd/system/arcade-game-launcher.service"
