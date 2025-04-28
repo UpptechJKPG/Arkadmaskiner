@@ -1,0 +1,13 @@
+[Unit]
+Description=USB SB3 Launcher with Chromium
+After=graphical.target
+
+[Service]
+ExecStart=/home/upptech/arcade-game-launcher.sh
+Restart=on-failure
+User=upptech
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+
+[Install]
+WantedBy=graphical.target

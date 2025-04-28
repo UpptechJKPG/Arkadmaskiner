@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=qjoypad "player1-arrows"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=QJoyPad
+Comment=Start QJoyPad with arcade mappings
