@@ -6,8 +6,8 @@ Det bör se ut såhär i USB:n
 ()[]
 
 Öppna en terminal (CTRL + ALT + T), navigera till USB:n, skriv sedan in följande och tryck Enter: \
-> chmod +x setup_arcade_pi.sh \
-Kör sedan det genom att skriva följande och trycka Enter: \
+> chmod +x setup_arcade_pi.sh 
+Kör sedan det genom att skriva följande och trycka Enter: 
 > ./setup_arcade_pi.sh 
 
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
