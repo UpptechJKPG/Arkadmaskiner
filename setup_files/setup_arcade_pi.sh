@@ -41,6 +41,7 @@ cp arcade-game-launcher.sh /home/upptech/
 chmod +x /home/upptech/arcade-game-launcher.sh
 cp splash_screen.py /home/upptech/Arcade_game/
 cp upptech_8-bit.png /home/upptech/Arcade_game/
+cp qjoypad.desktop /home/upptech/.config/autostart/
 
 echo "✅ Setup complete!"
 echo "You can now reboot and plug in a USB with .sb3 or .elf files to test."
