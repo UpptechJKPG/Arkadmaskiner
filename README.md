@@ -9,7 +9,7 @@ Allt som behövs göras är att:
 ## 1. Köra "start-up"-skriptet "setup_arcade_pi.sh"
 Skriptet hittas i mappen "setup_files". För att köra skriptet på Pi:n, så behövs alla filer innuti "setup_files" kopieras över till en USB, som sedan sätts in i Pi:n. \
 Kopiera sedan alla filer till skrivbordet (Desktop). \
-Öppna en terminal (CTRL + ALT + T), skriv `cd Desktop/` och tryck Enter, skriv sedan in följande och tryck Enter: \
+Öppna en terminal (CTRL + ALT + T), skriv `cd Desktop/` och tryck Enter, skriv sedan in följande och tryck Enter: 
 > chmod +x setup_arcade_pi.sh
 
 Kör sedan skriptet genom att skriva följande och trycka Enter: 
@@ -22,7 +22,8 @@ Om det står "x11", kan du gå vidare till steg 3. \
 Om det står "wayland", behlver du ändra till X11. \
 För att ändra till X11, skriv `sudo raspi-config` och tryck Enter, då får du upp en meny. Välj "A6 Advanced Options", sedan "A6 Wayland" och till sist "W1 X11". \
 Stäng ner menyn genom att trycka på Esc-knappen. \
-För att ändringen ska gälla behövs en omstart. Starta om och kontrollera sedan sessionen med `echo $XDG_SESSION_TYPE` (ALT + CTRL + T för att öppna terminalen).
+För att ändringen ska gälla behövs en omstart. Starta om och kontrollera sedan sessionen med `echo $XDG_SESSION_TYPE` \
+(ALT + CTRL + T för att öppna terminalen).
 
 ## 3. Stäng av USB-notiser
 Öppna Filhanteraren (File Manager) och välj Redigera (Edit) och Inställningar (Settings). Sedan, under Volymhantering (Volume Management), avmarkera "Montera flyttbara enheter automatiskt när de ansluts" och "Visa tillgängliga alternatic från flyttbara medier när de ansluts".
