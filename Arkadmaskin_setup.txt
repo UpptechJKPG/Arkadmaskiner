@@ -1,0 +1,70 @@
+Denna filen beskriver hur man ställer in Raspberry Pi (datorn) för arkadmaskinerna.
+
+
+Setup:
+/etc/system/system/arcade-game-launcher.service
+	sudo systemctl daemon-reload
+	sudo systemctl enable arcade-game-launcher.service
+
+/home/upptech/arcade-game-launcher.sh
+	chmod +x arcade-game-launcher.sh
+
+/home/upptech/Arcade_game/splash_screen.py
+/home/upptech/Arcade_game/upptech_8-bit.png
+/home/.config/autostart/qjoypad.desktop
+
+
+Installera TurboWarp Desktop:
+1. Avinstallera den förra: sudo apt remove turbowarp-desktop
+2. Installera här: desktop.turbowarp.org | "Debian, Ubuntu, Raspberry Pi OS, Linux Mint"
+3. Testa: turbowarp-desktop
+
+
+X11, inte Wayland:
+1. sudo raspi-config
+2. Advanced Options, A6 Wayland, X11
+3. Testa med: echo $XDG_SESSION_TYPE
+
+
+Installeringar:
+1. Få muskoordinater: sudo apt install x11-utils
+   kommando: xev
+2. xdotool: sudo apt install xdotool
+3. wmctrl: sudo apt install wmctrl
+4. python och tinker: sudo apt install python3 python3-tk
+5. PIL: sudo apt install python3-pil
+6. jq: sudo apt install jq
+# For mouse interaction testing:
+sudo apt install x11-utils       # Use: xev
+# Input automation:
+sudo apt install xdotool wmctrl
+# Python (for splash):
+sudo apt install python3 python3-tk python3-pil python3-pil.imagetk
+# json:
+sudo apt install jq
+
+USB-pop-up:
+1. File Manager/Filhanteraren -> Edit/Redigera -> Settings/Inställningar -> Volume Management/Volymhantering
+2. Avmarkera följande:
+	* "Mount removable media automatically when they are inserted"/"Montera flyttbara enheter automatiskt när de ansluts",
+	* "Browse removable media when inserted"/"Visa tillgängliga alternativ från flyttbara media när de ansluts"
+
+
+# Mount your USB (if not mounted automatically)
+# Then copy the files
+cp /media/usb/* /home/upptech/
+cd /home/upptech
+chmod +x setup_arcade_pi.sh
+./setup_arcade_pi.sh
+
+
+Setup joysticks controls:
+sudo apt install qjoypad
+Kör kommandnot 'qjoypad' för att konfigurera inställningarna.
+Axis 1: Vänster/Höger
+Axis 2: Upp/Ner
+Button 1: p/y
+Button 2: I/r
+Button 3: u/e
+Button 4: o/t
+

@@ -1,0 +1,56 @@
+Denna filen beskriver vad joysticks och knappar för arkadmaskinerna är inställda till.
+
+Ny setup (alla maskiner):
+	Left:					Right:
+	  Joystick				  Joystick
+	    [a], [w], [s], [d]			    Arrow Keys
+
+	  Right hand Buttons			  Right hand Buttons
+	    [e], [r], [t], [y]			    [u], [i], [o], [p]
+	  
+	  Middle Buttons			  Middle Buttons
+	    Nothing				    Nothing
+	    Nothing
+
+
+Tidigare setups:
+
+Star Wars:
+	Left:					Right:
+  	  Joystick				  Joystick 
+	    ArrowKeys				    ArrowKeys
+
+	  Right hand Buttons			  Right hand Buttons
+	    [u], [i], [o], [p]			    [u], [i], [o], [p]
+
+	  Middle Buttons			  Middle Buttons
+	    Right Mouse Button			  Right Mouse Button
+	    Nothing
+
+Donkey Kong:
+	Left:					Right:
+	  Joystick				  Joystick
+	    ArrowKeys				    ArrowKeys    
+	    Mouse movement
+
+	  Right hand Buttons			  Right hand Buttons
+	    1. [u], [i], [o], [p]		    [u], [i], [o], [p]
+	    2. LMB, RMB, [], []			    		    
+	  
+	  Middle Buttons			  Middle Buttons
+	    (1/2) Right/Left Mouse Button	    Right Mouse Button
+	    Toggle between 1 and 2					    
+
+Bubble Bobble:
+	Left:					Right:
+	  Joystick				  Joystick
+	    1. [a], [w], [s], [d]		    [a], [w], [s], [d]
+	    2. nothing
+
+	  Right hand Buttons			  Right hand Buttons
+	    1. [u], [i], [o], [p]		    [u], [i], [o], [p]
+	    2. nothing
+	  
+	  Middle Buttons			  Middle Buttons
+	    (1/2) Right/Left Mouse Button	    Right Mouse Button
+	    Toggle between 1 and 2
