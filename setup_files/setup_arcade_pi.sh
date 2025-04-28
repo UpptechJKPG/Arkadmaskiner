@@ -7,7 +7,8 @@ set -e
 
 echo "1. Installing required packages..."
 sudo apt update
-sudo apt install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil python-pil.imagetk jq qjoypad
+sudo apt install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq qjoypad
+sudo apt install python-pil.imagetk
 
 echo "2. Disabling USB auto-mount in PCManFM..."
 CONFIG_FILE="/home/upptech/.config/pcmanfm/LXDE-pi/pcmanfm.conf"
