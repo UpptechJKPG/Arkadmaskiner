@@ -6,13 +6,13 @@ Det bör se ut såhär i USB:n
 ()[]
 
 Öppna en terminal (CTRL + ALT + T), navigera till USB:n, skriv sedan in följande och tryck Enter: \
-\t chmod +x setup_arcade_pi.sh \
+> chmod +x setup_arcade_pi.sh \
 Kör sedan det genom att skriva följande och trycka Enter: \
-\t ./setup_arcade_pi.sh \
+> ./setup_arcade_pi.sh 
 
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
 Om TurboWarp Desktop inte redan är installerat behövs det också installeras genom att köra förljande kommandon:
-\t wget https://desktop.turbowarp.org/release-signing-key.gpg -qO- | gpg --dearmor | sudo tee /usr/share/keyrings/turbowarp.gpg > /dev/null \
-\t echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/turbowarp.gpg] https://releases.turbowarp.org/deb stable main" | sudo tee /etc/apt/sources.list.d/turbowarp.list \
-\t sudo apt update \
-\t sudo apt install turbowarp-desktop \
+> wget https://desktop.turbowarp.org/release-signing-key.gpg -qO- | gpg --dearmor | sudo tee /usr/share/keyrings/turbowarp.gpg > /dev/null \
+> echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/turbowarp.gpg] https://releases.turbowarp.org/deb stable main" | sudo tee /etc/apt/sources.list.d/turbowarp.list \
+> sudo apt update \
+> sudo apt install turbowarp-desktop 
