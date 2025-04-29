@@ -7,7 +7,7 @@ set -e
 
 echo "1. Installing required packages..."
 sudo apt-get update
-sudo apt-get install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq
+sudo apt-get install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq qjoypad
 sudo apt-get install -y python3-pil.imagetk
 
 echo "2. Setting up systemd service..."
