@@ -46,7 +46,7 @@ Om det inte är installerat, så installerar man det genom att köra följande k
 3. `sudo apt update`
 4. `sudo apt install -y turbowarp-desktop`
 
-För att TurboWarp Desktop ska se bättre ut för arkadmaskineran, behövs några inställningar göras inne i TurboWarp Desktop. \
+För att TurboWarp Desktop ska se bättre ut för arkadmaskinerna, behövs några inställningar göras inne i TurboWarp Desktop. \
 Starta TurboWarp Desktop genom att köra `turbowarp-desktop` i terminalen. \
 I menyn högst up finns "Settings" och "Addons", i de två ska vi göra ändringar.
 ![TurboWarp_Desktop_Taskbar](https://github.com/user-attachments/assets/436be9ee-c2ed-48f7-b81c-80e5ba3e8d30)
