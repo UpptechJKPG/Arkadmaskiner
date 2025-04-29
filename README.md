@@ -44,7 +44,7 @@ Om det inte är installerat, så installerar man det genom att köra följande k
 1. `wget https://desktop.turbowarp.org/release-signing-key.gpg -qO- | gpg --dearmor | sudo tee /usr/share/keyrings/turbowarp.gpg > /dev/null`
 2. `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/turbowarp.gpg] https://releases.turbowarp.org/deb stable main" | sudo tee /etc/apt/sources.list.d/turbowarp.list`
 3. `sudo apt update`
-4. `sudo apt install turbowarp-desktop`
+4. `sudo apt install -y turbowarp-desktop`
 
 För att TurboWarp Desktop ska se bättre ut för arkadmaskineran, behövs några inställningar göras inne i TurboWarp Desktop. \
 Starta TurboWarp Desktop genom att köra `turbowarp-desktop` i terminalen. \
