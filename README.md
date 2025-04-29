@@ -28,7 +28,7 @@ För att ändringen ska gälla behövs en omstart. \
 **När du startar om datorn så kommer en bild komma upp och täcka hela skärmen. Du behöver stänga ner bilden (ALT + F4) och sedan köra `sudo systemctl stop arcade-game-launcher.service` i terminalen.** \
 **============** 
 
-Starta om och kontrollera sedan sessionen med `echo $XDG_SESSION_TYPE` \
+Efter omstart, kontrollera sessionen med `echo $XDG_SESSION_TYPE` \
 (ALT + CTRL + T för att öppna terminalen).
 
 ## 4. Stäng av USB-notiser
