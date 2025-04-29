@@ -5,7 +5,7 @@ Allt som behövs göras är att:
 2. Köra "start-up"-skriptet "setup_arcade_pi.sh".
 3. Använda X11-session, inte Wayland.
 4. Stänga av USB-notiser.
-5. Installera TurboWarp Desktop
+5. Installera och ställa in TurboWarp Desktop
 
 ## 1. Göra "start-up"-skriptet exekverbart
 Skriptet hittas i mappen "setup_files". Alla filer innuti "setup_files" behövs kopieras över till en USB, som sedan sätts in i Pi:n. \
@@ -35,7 +35,7 @@ Efter omstart, kontrollera sessionen med `echo $XDG_SESSION_TYPE` \
 Öppna Filhanteraren (File Manager) och välj Redigera (Edit) och Inställningar (Settings). Sedan, under Volymhantering (Volume Management), avmarkera "Montera flyttbara enheter automatiskt när de ansluts" och "Visa tillgängliga alternatic från flyttbara medier när de ansluts".
 ![PCman_Volume_Management](https://github.com/user-attachments/assets/44aeba16-577e-42f1-9958-ab16864d8bd9)
 
-## 5. Installera TurboWarp Desktop
+## 5. Installera ochs ställa in TurboWarp Desktop
 TurboWarp Desktop är programmet som spelen startas i. \
 Det kan vara så att TurboWarp Dekstop redan är installerat. Kontrollera genom att köra `turbowarp-desktop` i terminalen. \
 Om en applikation öppnas upp, så är det installerat, annars är det inte installerat. \
@@ -45,5 +45,24 @@ Om det inte är installerat, så installerar man det genom att köra följande k
 2. `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/turbowarp.gpg] https://releases.turbowarp.org/deb stable main" | sudo tee /etc/apt/sources.list.d/turbowarp.list`
 3. `sudo apt update`
 4. `sudo apt install turbowarp-desktop`
+
+För att TurboWarp Desktop ska se bättre ut för arkadmaskineran, behövs några inställningar göras inne i TurboWarp Desktop. \
+Starta TurboWarp Desktop genom att köra `turbowarp-desktop` i terminalen. \
+I menyn högst up finns "Settings" och "Addons", i de två ska vi göra ändringar.
+![TurboWarp_Desktop_Taskbar](https://github.com/user-attachments/assets/436be9ee-c2ed-48f7-b81c-80e5ba3e8d30)
+
+### 1. Settings
+Under "Settings", tryck på "Switch to dark mode"
+![TurboWarp_Deskop_Settings](https://github.com/user-attachments/assets/b2635873-a68b-4efa-b9f1-2f843abf1c6d)
+
+### 2. Addons
+När du trycker på "Addons" får du upp en meny med ett sökfält, sök på "Enhanced full screen". \
+Då dyker det upp en Addon som heter just "Enhanced full screen".
+![TurboWarp_Desktop_Enhanced_full_screen_unselected](https://github.com/user-attachments/assets/3c08463a-08e9-43b8-a874-70d846c51cc4)
+
+Välj den, och välj sedan "Never" nedanför.
+![TurboWarp_Desktop_Enhanced_full_screen](https://github.com/user-attachments/assets/eeda246e-af5b-48df-82ac-4d82b7f85f37)
+
+## 
 
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
