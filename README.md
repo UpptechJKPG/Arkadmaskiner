@@ -52,7 +52,7 @@ I menyn högst up finns "Settings" och "Addons", i de två ska vi göra ändring
 ![TurboWarp_Desktop_Taskbar](https://github.com/user-attachments/assets/436be9ee-c2ed-48f7-b81c-80e5ba3e8d30)
 
 ### 1. Settings
-Under "Settings", tryck på "Switch to dark mode"
+Under "Settings", tryck på "Switch To Dark Mode"
 ![TurboWarp_Deskop_Settings](https://github.com/user-attachments/assets/b2635873-a68b-4efa-b9f1-2f843abf1c6d)
 
 ### 2. Addons
@@ -64,6 +64,6 @@ Då dyker det upp en Addon som heter just "Enhanced full screen". \
 Välj den, och välj sedan "Never" nedanför. \
 ![TurboWarp_Desktop_Enhanced_full_screen](https://github.com/user-attachments/assets/eeda246e-af5b-48df-82ac-4d82b7f85f37)
 
-## ** **
+## 
 
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
