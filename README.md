@@ -61,7 +61,7 @@ Då dyker det upp en Addon som heter just "Enhanced full screen". \
 ![TurboWarp_Desktop_Enhanced_full_screen_unselected](https://github.com/user-attachments/assets/d923d1e1-1df2-4352-8c40-9dc226fa949d)
 
 Välj den, och välj sedan "Never" nedanför. \
-![TurboWarp_Desktop_Enhanced_full_screen](https://github.com/user-attachments/assets/eeda246e-af5b-48df-82ac-4d82b7f85f37)
+![TurboWarp_Desktop_Enhanced_full_screen](https://github.com/user-attachments/assets/eeda246e-af5b-48df-82ac-4d82b7f85f37) \
 Sen stänger du bara ner den menyn.
 
 ## 
