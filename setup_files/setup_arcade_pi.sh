@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 
 echo "== Arcade Pi Setup Script =="
 
@@ -6,11 +6,9 @@ echo "== Arcade Pi Setup Script =="
 set -e
 
 echo "1. Installing required packages..."
-sudo apt update
-sudo apt install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq qjoypad
-sudo apt install -y python3-pil.imagetk
 sudo apt-get update
-sudo apt-get install dos2unix
+sudo apt-get install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq
+sudo apt-get install -y python3-pil.imagetk
 
 echo "2. Setting up systemd service..."
 SERVICE_FILE="/etc/systemd/system/arcade-game-launcher.service"
@@ -30,9 +28,12 @@ dos2unix /home/upptech/arcade-game-launcher.sh
 chmod +x /home/upptech/arcade-game-launcher.sh
 cp splash_screen.py /home/upptech/Arcade_game/
 cp upptech_8-bit.png /home/upptech/Arcade_game/
+
+mkdir -p /home/upptech/.config/autostart/
 cp qjoypad.desktop /home/upptech/.config/autostart/
+
 cp player1-arrows.lyt /home/upptech/.qjoypad3/
 
 echo "✅ Setup complete!"
 echo "You can now change session to X11 and then reboot and plug in a USB with .sb3 or .elf files to test."
-echo "Also, don't forget to download Turbowarp Desktop (if not already installed)"
+echo "Also, don't forget to download TurboWarp Desktop (if not already installed)"
