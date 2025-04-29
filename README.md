@@ -38,7 +38,7 @@ Efter omstart, kontrollera sessionen med `echo $XDG_SESSION_TYPE` \
 ## 5. Installera och ställa in TurboWarp Desktop
 TurboWarp Desktop är programmet som spelen startas i. \
 Det kan vara så att TurboWarp Dekstop redan är installerat. Kontrollera genom att köra `turbowarp-desktop` i terminalen. \
-Om en applikation öppnas upp, så är det installerat, annars är det inte installerat. \
+Om en applikation öppnas upp, så är det installerat, annars är det inte installerat. 
 
 Om det inte är installerat, så installerar man det genom att köra följande kommandon i terminalen:
 1. `wget https://desktop.turbowarp.org/release-signing-key.gpg -qO- | gpg --dearmor | sudo tee /usr/share/keyrings/turbowarp.gpg > /dev/null`
