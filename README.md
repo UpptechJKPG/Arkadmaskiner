@@ -23,7 +23,12 @@ Om det står "x11", kan du gå vidare till steg 3. \
 Om det står "wayland", behlver du ändra till X11. \
 För att ändra till X11, skriv `sudo raspi-config` och tryck Enter, då får du upp en meny. Välj "A6 Advanced Options", sedan "A6 Wayland" och till sist "W1 X11". \
 Stäng ner menyn genom att trycka på Esc-knappen. \
-För att ändringen ska gälla behövs en omstart. Starta om och kontrollera sedan sessionen med `echo $XDG_SESSION_TYPE` \
+För att ändringen ska gälla behövs en omstart. \
+**=== OBS! ===** \
+**När du startar om datorn så kommer en bild komma upp och täcka hela skärmen. Du behöver stänga ner bilden (ALT + F4) och sedan köra `sudo systemctl stop arcade-game-launcher.service` i terminalen.** \
+**============** \
+
+Starta om och kontrollera sedan sessionen med `echo $XDG_SESSION_TYPE` \
 (ALT + CTRL + T för att öppna terminalen).
 
 ## 4. Stäng av USB-notiser
