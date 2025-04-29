@@ -66,6 +66,6 @@ Sen stänger du bara ner den menyn.
 
 ## 
 
-### Klappat och klart!
+## Klappat och klart!
 Nu borde allt fungera. \
 Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen och hålla tummarna (eller bara stänga av och sätta på strömmen).
