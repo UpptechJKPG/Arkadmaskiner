@@ -66,4 +66,6 @@ Välj den, och välj sedan "Never" nedanför. \
 
 ## 
 
-Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen (eller bara stänga av och sätta på strömmen).
+### Klappat och klart!
+Nu borde allt fungera. \
+Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminalen och hålla tummarna (eller bara stänga av och sätta på strömmen).
