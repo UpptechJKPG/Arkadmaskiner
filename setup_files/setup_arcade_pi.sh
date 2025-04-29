@@ -9,6 +9,8 @@ echo "1. Installing required packages..."
 sudo apt update
 sudo apt install -y x11-utils xdotool wmctrl python3 python3-tk python3-pil jq qjoypad
 sudo apt install -y python3-pil.imagetk
+sudo apt-get update
+sudo apt-get install dos2unix
 
 echo "2. Setting up systemd service..."
 SERVICE_FILE="/etc/systemd/system/arcade-game-launcher.service"
@@ -24,6 +26,7 @@ fi
 echo "3. Copying launcher script and splash screen..."
 mkdir -p /home/upptech/Arcade_game
 cp arcade-game-launcher.sh /home/upptech/
+dos2unix /home/upptech/arcade-game-launcher.sh
 chmod +x /home/upptech/arcade-game-launcher.sh
 cp splash_screen.py /home/upptech/Arcade_game/
 cp upptech_8-bit.png /home/upptech/Arcade_game/
