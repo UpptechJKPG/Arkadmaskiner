@@ -35,7 +35,7 @@ Efter omstart, kontrollera sessionen med `echo $XDG_SESSION_TYPE` \
 Öppna Filhanteraren (File Manager) och välj Redigera (Edit) och Inställningar (Preferences). Sedan, under Volymhantering (Volume Management), avmarkera "Montera flyttbara enheter automatiskt när de ansluts" och "Visa tillgängliga alternatic från flyttbara medier när de ansluts". \
 ![PCman_Volume_Management](https://github.com/user-attachments/assets/44aeba16-577e-42f1-9958-ab16864d8bd9)
 
-## 5. Installera ochs ställa in TurboWarp Desktop
+## 5. Installera och ställa in TurboWarp Desktop
 TurboWarp Desktop är programmet som spelen startas i. \
 Det kan vara så att TurboWarp Dekstop redan är installerat. Kontrollera genom att köra `turbowarp-desktop` i terminalen. \
 Om en applikation öppnas upp, så är det installerat, annars är det inte installerat. \
