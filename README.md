@@ -14,7 +14,7 @@ Inne i Pi:n, kopiera sedan alla filer från USB:n till skrivbordet (Desktop). \
 Kör sedan `cd Desktop/` och sedan `dos2unix setup_arcade_pi.sh`, nu är skriptet exekverbart.
 
 ## 2. Köra "start-up"-skriptet "setup_arcade_pi.sh"
-Öppna en terminal (CTRL + ALT + T), skriv in `chmod +x setup_arcade_pi.sh` och tryck Enter och till sist, för att köra skriptet, `bash setup_arcade_pi.sh`.
+I samma terminal från steg 1, skriv in `chmod +x setup_arcade_pi.sh` och tryck Enter och till sist, för att köra skriptet, `bash setup_arcade_pi.sh`.
 
 ## 3. Använda X11-session, inte Wayland
 För att Pi:n ska kunna köra programmet för att spela spelen, behöver den använda X11, inte Wayland. \
