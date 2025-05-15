@@ -21,7 +21,7 @@ För att Pi:n ska kunna köra programmet för att spela spelen, behöver den anv
 För att se vad som används, skriv `echo $XDG_SESSION_TYPE` i terminalen och tryck Enter. \
 Om det står "x11", kan du gå vidare till steg 4. \
 Om det står "wayland", behöver du ändra till X11. \
-För att ändra till X11, skriv `sudo raspi-config` och tryck Enter, då får du upp en meny. Välj "6 Advanced Options", sedan "A6 Wayland" och till sist "W1 X11". \
+För att ändra till X11, skriv `sudo raspi-config` i terminalen och tryck Enter, då får du upp en meny. Välj "6 Advanced Options", sedan "A6 Wayland" och till sist "W1 X11". \
 Stäng ner menyn genom att trycka på Esc-knappen. \
 För att ändringen ska gälla behövs en omstart. \
 **=== OBS! ===** \
