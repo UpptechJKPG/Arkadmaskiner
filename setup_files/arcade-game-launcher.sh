@@ -100,7 +100,7 @@ while true; do
 						sleep 1  # Wait for button to be ready
 					done
 					
-					sleep 1
+					sleep 2
 					xdotool mousemove 1442 71 click 1 # Click Start
 					xdotool mousemove 1898 71 click 1 # Click Fullscreen
 					xdotool mousemove 1919 1079 # Hide mouse cursor
