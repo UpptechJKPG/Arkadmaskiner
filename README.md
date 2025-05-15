@@ -81,8 +81,8 @@ Stoppa in USB:n i arkadmaskinen så startar spelet efter ett litet tag.
 
 **=== OBS! ===** \
 **USB:n kan innehålla annat än bara spelfilen utan några problem, men den bör innehålla endast 1 fil av typ .sb3.** \
-**USB:n bör inte dras ut innan spelet har startats helt, annars kommer programmet att krascha.**
-**============** \
+**USB:n bör inte dras ut innan spelet har startats helt, annars kommer programmet att krascha.** \
+**============**
 
 Efter att spelet har startats, kan USB:n säkert dras ut och spelet kommer att fortsätta köras.\
 
