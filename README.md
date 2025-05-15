@@ -104,4 +104,4 @@ Knappar  - [E], [R], [T], [Y]
 ## Centerknappar
 Det finns 3 knappar i mitten, just nu har de ingen användning (de är inte kopplade till något).\
 De hade möjligtvis kunnats kopplas till "kontrolltangenter" (t.ex. TAB, Enter, Space).\
-Just nu är det qjoypad som används för att konfigurera kontrollerna. Om ändringar önskas göras till arkadmaskinens kontroller, så kan man köra `qjoypad` i terminalen. Filen som används för kontrollerna heter "player1-arrow.lyt" (även om heter "player1" används den för båda spelares kontrller)
+Just nu är det qjoypad som används för att konfigurera kontrollerna. Om ändringar önskas göras till arkadmaskinens kontroller, så kan man köra `qjoypad` i terminalen. Filen som används för kontrollerna heter "player1-arrow.lyt" (även om den heter "player1" används den för båda spelares kontroller)
