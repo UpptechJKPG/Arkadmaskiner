@@ -32,7 +32,7 @@ Efter omstart, kontrollera sessionen med `echo $XDG_SESSION_TYPE` \
 (ALT + CTRL + T för att öppna terminalen).
 
 ## 4. Stäng av USB-notiser
-Öppna Filhanteraren (File Manager) och välj Redigera (Edit) och Inställningar (Preferences). Sedan, under Volymhantering (Volume Management), avmarkera "Montera flyttbara enheter automatiskt när de ansluts" och "Visa tillgängliga alternatic från flyttbara medier när de ansluts". \
+Öppna Filhanteraren (File Manager) och välj Redigera (Edit) och Inställningar (Preferences). Sedan, under Volymhantering (Volume Management), avmarkera "Montera flyttbara enheter automatiskt när de ansluts" och "Visa tillgängliga alternativ från flyttbara medier när de ansluts". \
 ![PCman_Volume_Management](https://github.com/user-attachments/assets/44aeba16-577e-42f1-9958-ab16864d8bd9)
 
 ## 5. Installera och ställa in TurboWarp Desktop
