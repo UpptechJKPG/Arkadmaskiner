@@ -74,4 +74,4 @@ Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminale
 
 **OBS** Om det inte går att skriva i terminalen, testa trycka CTRL + C
 
-# Intruktioner
+# Instruktioner
