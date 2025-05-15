@@ -91,7 +91,7 @@ Om "spel A" körs just nu, och en USB med "spel A" stoppas in på nytt i arkadma
 Det enda sätter just nu för att stänga av ett spel utan att starta ett nytt, är att helt enkelt starta om arkadmaskinen.
 
 # Kontroller
-Om allt går som det ska (det gör oftast det) så är den högra spelaren "spelare 1" och den vänsta "spelare 2" (vid start av arkadmaskinen kan det ibland bli tvärtom).\
+Om allt går som det ska (det gör oftast det) så är den högra spelaren "spelare 1" och den vänsta "spelare 2" (vid start av arkadmaskinen kan det ibland bli tvärtom).
 
 ## Spelare 1 (höger)
 Joystick - Pil-tangenter [↑], [←], [↓], [→]\
