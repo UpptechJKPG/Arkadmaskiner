@@ -7,7 +7,7 @@ Allt som behövs göras är att:
 4. Stänga av USB-notiser.
 5. Installera och ställa in TurboWarp Desktop
 
-Under (Instruktioner)[#nstruktioner] finns intruktioner för hur man kan använda arkadmaskinerna och hur man startar spel på dem.
+Under [Instruktioner](#instruktioner) finns intruktioner för hur man kan använda arkadmaskinerna och hur man startar spel på dem.
 
 ## 1. Göra "start-up"-skriptet exekverbart
 Skriptet hittas i mappen "setup_files". Alla filer innuti "setup_files" behövs kopieras över till en USB, som sedan sätts in i Pi:n. \
