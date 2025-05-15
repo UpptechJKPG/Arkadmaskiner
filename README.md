@@ -5,7 +5,7 @@ Allt som behövs göras är att:
 2. Köra "start-up"-skriptet "setup_arcade_pi.sh".
 3. Använda X11-session, inte Wayland.
 4. Stänga av USB-notiser.
-5. Installera och ställa in TurboWarp Desktop
+5. Installera och ställa in TurboWarp Desktop.
 
 Under [Instruktioner](#instruktioner) finns intruktioner för hur man kan använda arkadmaskinerna och hur man startar spel på dem.\
 Under [Kontroller](#kontroller) finns en beskrivning av vilka tangenter joysticksen och knapparna är kopplade till.
