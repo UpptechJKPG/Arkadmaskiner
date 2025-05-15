@@ -7,7 +7,8 @@ Allt som behövs göras är att:
 4. Stänga av USB-notiser.
 5. Installera och ställa in TurboWarp Desktop
 
-Under [Instruktioner](#instruktioner) finns intruktioner för hur man kan använda arkadmaskinerna och hur man startar spel på dem.
+Under [Instruktioner](#instruktioner) finns intruktioner för hur man kan använda arkadmaskinerna och hur man startar spel på dem.\
+Under [Kontroller](#kontroller) finns en beskrivning av vilka tangenter joysticksen och knapparna är kopplade till.
 
 ## 1. Göra "start-up"-skriptet exekverbart
 Skriptet hittas i mappen "setup_files". Alla filer innuti "setup_files" behövs kopieras över till en USB, som sedan sätts in i Pi:n. \
@@ -83,5 +84,24 @@ Stoppa in USB:n i arkadmaskinen så startar spelet efter ett litet tag.\
 **USB:n bör inte dras ut innan spelet har startats helt, annars kommer programmet att krascha.**
 **============** \
 
-Efter att spelet har startats, kan USB:n säkert dras ut och spelet kommer att fortsätta köras.
+Efter att spelet har startats, kan USB:n säkert dras ut och spelet kommer att fortsätta köras.\
 
+## Starta nytt spel
+Om "spel A" körs just nu, och en USB med "spel A" stoppas in på nytt i arkadmaskinen, så kommer ingenting att hända och "spel A" kör på som vanligt. Men om ett annat spel stoppas in (t.ex "spel B") så kommer "spel A" att avslutas och "spel B" att startas.\
+Det enda sätter just nu för att stänga av ett spel utan att starta ett nytt, är att helt enkelt starta om arkadmaskinen.
+
+# Kontroller
+Om allt går som det ska (det gör oftast det) så är den högra spelaren "spelare 1" och den vänsta "spelare 2" (vid start av arkadmaskinen kan det ibland bli tvärtom).\
+
+## Spelare 1 (höger)
+Joystick - Pil-tangenter [↑], [←], [↓], [→]\
+Knappar  - [U], [I], [O], [P]
+
+## Spelare 2 (vänster)
+Joystick - WASD-tangenter [W], [A], [S], [D]\
+Knappar  - [E], [R], [T], [Y]
+
+## Centerknappar
+Det finns 3 knappar i mitten, just nu har de ingen användning (de är inte kopplade till något).\
+De hade möjligtvis kunnats kopplas till "kontrolltangenter" (t.ex. TAB, Enter, Space).\
+Just nu är det qjoypad som används för att konfigurera kontrollerna. Om ändringar önskas göras till arkadmaskinens kontroller, så kan man köra `qjoypad` i terminalen. Filen som används för kontrollerna heter "player1-arrow.lyt" (även om heter "player1" används den för båda spelares kontrller)
