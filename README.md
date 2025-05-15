@@ -76,8 +76,8 @@ Sedan är det bara att starta om Pi:n genom att skriva "sudo reboot" i terminale
 **OBS** Om det inte går att skriva i terminalen, testa trycka CTRL + C
 
 # Instruktioner
-Allt som behövs för att starta ett spel på arkadmaskinen är en USB-sticka som innehåller en SB3-fil (filändelse .sb3), under mappen "Spel/" finns några SB3-filer (de som börjar på "Upptech_" är redigerade så att de passar för arkadmaskinerna).\
-Stoppa in USB:n i arkadmaskinen så startar spelet efter ett litet tag.\
+Allt som behövs för att starta ett spel på arkadmaskinen är en USB-sticka som innehåller en SB3-fil (filändelse .sb3). Under mappen "Spel/" finns några SB3-filer (de som börjar på "Upptech_" är redigerade så att de passar för arkadmaskinerna).\
+Stoppa in USB:n i arkadmaskinen så startar spelet efter ett litet tag.
 
 **=== OBS! ===** \
 **USB:n kan innehålla annat än bara spelfilen utan några problem, men den bör innehålla endast 1 fil av typ .sb3.** \
