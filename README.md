@@ -84,7 +84,7 @@ Stoppa in USB:n i arkadmaskinen så startar spelet efter ett litet tag.
 **USB:n bör inte dras ut innan spelet har startats helt, annars kommer programmet att krascha.** \
 **============**
 
-Efter att spelet har startats, kan USB:n säkert dras ut och spelet kommer att fortsätta köras.\
+Efter att spelet har startats, kan USB:n säkert dras ut och spelet kommer att fortsätta köras.
 
 ## Starta nytt spel
 Om "spel A" körs just nu, och en USB med "spel A" stoppas in på nytt i arkadmaskinen, så kommer ingenting att hända och "spel A" kör på som vanligt. Men om ett annat spel stoppas in (t.ex "spel B") så kommer "spel A" att avslutas och "spel B" att startas.\
